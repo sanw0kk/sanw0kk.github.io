@@ -73,10 +73,8 @@ a.menu{
 .image-container {
     position: relative;
     width: 100%;
-    max-width: 2000px;
     height: 600px;
     margin: 0 auto;
-    overflow: hidden;
     background-image: url("images/baner.jpeg");
     background-size: 100%; /* Растягивает изображение по ширине блока */
     background-position: center; /* Центрирует изображение */
