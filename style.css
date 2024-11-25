@@ -74,12 +74,23 @@ a.menu{
     position: relative;
     width: 100%;
     height: 600px;
-    margin: 0 auto;
-    background-image: url("images/kremlin.jpg");
-    background-size: 100%; /* Растягивает изображение по ширине блока */
-    background-position: center; /* Центрирует изображение */
-    background-repeat: no-repeat;
-    background-attachment:fixed;
+    overflow: hidden; /* Скрывает все, что выходит за пределы контейнера */
+}
+
+.banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Обеспечивает правильное масштабирование изображения */
+    z-index: 1; /* Устанавливает изображение позади других элементов */
+}
+
+.headers, h1 {
+    position: relative;
+    z-index: 2; /* Устанавливает заголовок и меню выше изображения */
+}
 }
 .lines{
     border-color:#ffffff;
