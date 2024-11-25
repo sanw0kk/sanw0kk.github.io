@@ -39,6 +39,7 @@ div.menu{
     max-width: 1160px;
     width: 100%;
     justify-content: space-between;
+    margin-top:0px;
     
 }
 div.menuf{
@@ -47,6 +48,7 @@ div.menuf{
     max-width:600px;
     width: 100%;
     margin-right: 50px;
+    margin-top:0px;
 }
 a.menuf{
     margin-left: auto;
